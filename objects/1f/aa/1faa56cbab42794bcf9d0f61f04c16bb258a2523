@@ -1,0 +1,49 @@
+# Configuration file
+
+####################
+# customspawner-settings
+####################
+
+customspawner-settings {
+    B:debug=false
+    B:enforceMaxSpawnLimits=false
+    B:forceDespawns=false
+    B:killAllVillagers=false
+    B:killallUseLightLevel=true
+    I:maxDespawnLightLevel=2
+    I:minDespawnLightLevel=2
+    B:worldGenCreatureSpawning=true
+}
+
+
+####################
+# mod-mappings
+#===================
+# Mod Biome Mappings
+# You may change tag values but do NOT change the default keys since they are used to generate our defaults.
+# For example, 'twilightforest=TL:TwilightForest.cfg' may be changed to 'twilightforest=TWL:TWL.cfg' but may NOT be changed to 'twilight=TWL:TWL.cfg'
+####################
+
+mod-mappings {
+    S:APPENG <APPENG:APPENG.cfg>
+    S:AROMA1997 <AROMA1997:AROMA1997.cfg>
+    S:BUUZ135 <BUUZ135:BUUZ135.cfg>
+    S:CAVERN <CAVERN:CAVERN.cfg>
+    S:COFH <COFH:COFH.cfg>
+    S:FORESTRY <FORESTRY:FORESTRY.cfg>
+    S:LOGICTECHCORP <LOGICTECHCORP:LOGICTECHCORP.cfg>
+    S:MEKANISM <MEKANISM:MEKANISM.cfg>
+    S:NC <NC:NC.cfg>
+    S:OPENBLOCKS <OPENBLOCKS:OPENBLOCKS.cfg>
+    S:ORG <ORG:ORG.cfg>
+    S:PROSPECTOR <PROSPECTOR:PROSPECTOR.cfg>
+    S:SLIMEKNIGHTS <SLIMEKNIGHTS:SLIMEKNIGHTS.cfg>
+    S:ZMASTER587 <ZMASTER587:ZMASTER587.cfg>
+    S:biomesop <BOP:BiomesOPlenty.cfg>
+    S:drzhark <MOC:MoCreatures.cfg>
+    S:tinker <TC:TinkerConstruct.cfg>
+    S:undefined <U:Undefined.cfg>
+    S:vanilla <MC:Vanilla.cfg>
+}
+
+

@@ -1,0 +1,41 @@
+# Configuration file
+
+####################
+# biomegroups
+####################
+
+biomegroups {
+    S:BEACH <>
+    S:COLD <>
+    S:CONIFEROUS <>
+    S:DEAD <>
+    S:DENSE <>
+    S:DRY <VolcanicBarren>
+    S:END <>
+    S:FOREST <>
+    S:HILLS <>
+    S:HOT <VolcanicBarren>
+    S:JUNGLE <>
+    S:LUSH <>
+    S:MAGICAL <>
+    S:MESA <>
+    S:MOUNTAIN <VolcanicBarren>
+    S:MUSHROOM <>
+    S:NETHER <>
+    S:OCEAN <>
+    S:PLAINS <>
+    S:RARE <>
+    S:RIVER <>
+    S:SANDY <>
+    S:SAVANNA <>
+    S:SNOWY <>
+    S:SPARSE <>
+    S:SPOOKY <>
+    S:SWAMP <>
+    S:VOID <>
+    S:WASTELAND <VolcanicBarren>
+    S:WATER <>
+    S:WET <>
+}
+
+
