@@ -1,1 +1,0 @@
-mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:2049>, <harvestcraft:potitem>, <liquid:water> * 1000, 7500);
