@@ -1,0 +1,23 @@
+# Backported materials
+
+# Update "stained clay" to "Terracotta" as per 1.12
+# lowercase filename used for 1.11+ (pack format 3+)
+
+tile.clayHardenedStained.name=Stained Terracotta
+tile.clayHardenedStained.black.name=Black Terracotta
+tile.clayHardenedStained.red.name=Red Terracotta
+tile.clayHardenedStained.green.name=Green Terracotta
+tile.clayHardenedStained.brown.name=Brown Terracotta
+tile.clayHardenedStained.blue.name=Blue Terracotta
+tile.clayHardenedStained.purple.name=Purple Terracotta
+tile.clayHardenedStained.cyan.name=Cyan Terracotta
+tile.clayHardenedStained.silver.name=Light Gray Terracotta
+tile.clayHardenedStained.gray.name=Gray Terracotta
+tile.clayHardenedStained.pink.name=Pink Terracotta
+tile.clayHardenedStained.lime.name=Lime Terracotta
+tile.clayHardenedStained.yellow.name=Yellow Terracotta
+tile.clayHardenedStained.lightBlue.name=Light Blue Terracotta
+tile.clayHardenedStained.magenta.name=Magenta Terracotta
+tile.clayHardenedStained.orange.name=Orange Terracotta
+tile.clayHardenedStained.white.name=White Terracotta
+tile.clayHardened.name=Terracotta
