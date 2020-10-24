@@ -1,0 +1,63 @@
+# Configuration file
+
+client {
+    # All screens outside this range will be unloaded
+    D:loadDistance=30.0
+
+    # All unloaded screens inside this range will be loaded
+    D:unloadDistance=32.0
+}
+
+
+clientautovolume {
+    # Distance after which you can't hear anything (in blocks)
+    D:dist0=30.0
+
+    # Distance after which the sound starts dropping (in blocks)
+    D:dist100=10.0
+
+    # If true, the volume of YouTube videos will change depending on how far you are
+    B:enableAutoVolume=true
+
+    # Volume for YouTube videos. This will have no effect if enableSoundDistance is set to false
+    D:ytVolume=100.0
+}
+
+
+main {
+    # An array of domain names you don't want to load.
+    S:blacklist <
+     >
+
+    # If true, the ownership thief item will be disabled
+    B:disableOwnershipThief=false
+
+    # If true, breaking the minePad is required to craft upgrades.
+    B:hardRecipes=true
+
+    # The URL that will be loaded each time you create a screen
+    S:homepage=mod://webdisplays/main.html
+
+    # Maximum horizontal screen resolution, in pixels
+    I:maxResolutionX=1920
+
+    # Maximum vertical screen resolution, in pixels
+    I:maxResolutionY=1080
+
+    # Maximum screen width, in blocks. Resolution will be clamped by maxResolutionX.
+    I:maxScreenSizeX=16
+
+    # Maximum screen height, in blocks. Resolution will be clamped by maxResolutionY.
+    I:maxScreenSizeY=16
+
+    # The port used by miniserv. 0 to disable.
+    I:miniservPort=25566
+
+    # The amount of data that can be uploaded to miniserv, in KiB (so 1024 = 1 MiO)
+    I:miniservQuota=1024
+
+    # The minePad Y resolution in pixels. padWidth = padHeight * 1.9666666666666666
+    I:padHeight=480
+}
+
+

@@ -1,0 +1,1 @@
+mods.mekanism.chemical.crystallizer.addRecipe(<gas:water> * 150, <mekanism:salt>);
