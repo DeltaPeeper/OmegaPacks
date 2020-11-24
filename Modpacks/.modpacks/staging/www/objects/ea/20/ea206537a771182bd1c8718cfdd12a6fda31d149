@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "registry_name": "igloo",
+  "rarity": 3,
+  "gem_color": 8114904,
+  "has_advanced_variant": true,
+  "crafting_core_itemstack": {
+    "item_name": "minecraft:packed_ice",
+    "count": 1,
+    "meta": 0
+  },
+  "loot_tables": [
+    "minecraft:chests/igloo_chest"
+  ]
+}

@@ -1,0 +1,275 @@
+# Configuration file
+
+####################
+# caveman
+####################
+
+caveman {
+    S:biomegroups <CAVEMAN_DEFAULT>
+    B:canSpawn=true
+    I:frequency=30
+    I:maxChunk=1
+    I:maxLightlevel=-1
+    I:maxSpawn=1
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# cavenicbear
+####################
+
+cavenicbear {
+    S:biomegroups <CAVENICBEAR_DEFAULT>
+    B:canSpawn=true
+    I:frequency=30
+    I:maxChunk=1
+    I:maxLightlevel=-1
+    I:maxSpawn=1
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=CREATURE
+}
+
+
+####################
+# caveniccreeper
+####################
+
+caveniccreeper {
+    S:biomegroups <CAVENICCREEPER_DEFAULT>
+    B:canSpawn=true
+    I:frequency=30
+    I:maxChunk=1
+    I:maxLightlevel=-1
+    I:maxSpawn=1
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# cavenicskeleton
+####################
+
+cavenicskeleton {
+    S:biomegroups <CAVENICSKELETON_DEFAULT>
+    B:canSpawn=true
+    I:frequency=20
+    I:maxChunk=1
+    I:maxLightlevel=-1
+    I:maxSpawn=1
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# cavenicspider
+####################
+
+cavenicspider {
+    S:biomegroups <CAVENICSPIDER_DEFAULT>
+    B:canSpawn=true
+    I:frequency=30
+    I:maxChunk=1
+    I:maxLightlevel=-1
+    I:maxSpawn=1
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# cavenicwitch
+####################
+
+cavenicwitch {
+    S:biomegroups <CAVENICWITCH_DEFAULT>
+    B:canSpawn=true
+    I:frequency=15
+    I:maxChunk=1
+    I:maxLightlevel=-1
+    I:maxSpawn=1
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# caveniczombie
+####################
+
+caveniczombie {
+    S:biomegroups <CAVENICZOMBIE_DEFAULT>
+    B:canSpawn=true
+    I:frequency=8
+    I:maxChunk=1
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=2
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# crazycreeper
+####################
+
+crazycreeper {
+    S:biomegroups <CRAZYCREEPER_DEFAULT>
+    B:canSpawn=true
+    I:frequency=1
+    I:maxChunk=1
+    I:maxLightlevel=-1
+    I:maxSpawn=1
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# crazyskeleton
+####################
+
+crazyskeleton {
+    S:biomegroups <CRAZYSKELETON_DEFAULT>
+    B:canSpawn=true
+    I:frequency=1
+    I:maxChunk=1
+    I:maxLightlevel=-1
+    I:maxSpawn=1
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# crazyspider
+####################
+
+crazyspider {
+    S:biomegroups <CRAZYSPIDER_DEFAULT>
+    B:canSpawn=true
+    I:frequency=1
+    I:maxChunk=1
+    I:maxLightlevel=-1
+    I:maxSpawn=1
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# crazyzombie
+####################
+
+crazyzombie {
+    S:biomegroups <CRAZYZOMBIE_DEFAULT>
+    B:canSpawn=true
+    I:frequency=1
+    I:maxChunk=1
+    I:maxLightlevel=-1
+    I:maxSpawn=1
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# skeleton
+####################
+
+skeleton {
+    S:biomegroups <SKELETON_DEFAULT>
+    B:canSpawn=true
+    I:frequency=8
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=2
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# zombie
+####################
+
+zombie {
+    S:biomegroups <ZOMBIE_DEFAULT>
+    B:canSpawn=true
+    I:frequency=8
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=2
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+

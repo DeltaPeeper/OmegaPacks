@@ -1,0 +1,8 @@
+# Configuration file
+
+general {
+    # Set the active Language for the mod. Possible values are en_us, de_de and es_es.
+    S:language=en_us
+}
+
+

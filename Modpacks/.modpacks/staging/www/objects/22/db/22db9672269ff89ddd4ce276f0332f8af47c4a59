@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "registry_name": "end_city",
+  "rarity": 10,
+  "gem_color": 12016106,
+  "has_advanced_variant": true,
+  "crafting_core_itemstack": {
+    "item_name": "minecraft:dragon_breath",
+    "count": 1,
+    "meta": 0
+  },
+  "loot_tables": [
+    "minecraft:chests/end_city_treasure"
+  ]
+}

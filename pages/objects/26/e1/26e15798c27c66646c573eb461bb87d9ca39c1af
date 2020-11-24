@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "registry_name": "desert_pyramid",
+  "rarity": 6,
+  "gem_color": 15913781,
+  "has_advanced_variant": true,
+  "crafting_core_item_name": "gemEmerald",
+  "loot_tables": [
+    "minecraft:chests/desert_pyramid"
+  ]
+}

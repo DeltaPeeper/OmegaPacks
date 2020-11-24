@@ -1,0 +1,62 @@
+# Configuration file
+
+##########################################################################################################
+# General
+#--------------------------------------------------------------------------------------------------------#
+# General settings for the mod.
+##########################################################################################################
+
+General {
+    # If true, all loot bags will be disabled from the game. Remember: You can disable them separately in the json files! (Default: false)
+    B:disableLootBags=false
+
+    # If true, shrubs like uranium or lead will give negative effects when collide with them. (Default: true)
+    B:enableNegativeShrubEffects=true
+
+    # If ore shrubs should be generate in the world, Remember: You can disable this separately in the json files!
+    B:enableOreShrubGeneration=true
+
+    # If a chunk have not generated ore shrubs, a regeneration will happen in this chunk. Useful, if you add this mod later to the game and want ore shrubs in already discovered chunks. (Default: true)
+    B:enableOreShrubsRetrogen=true
+}
+
+
+##########################################################################################################
+# Generation
+#--------------------------------------------------------------------------------------------------------#
+# Handle the generation of ore shrubs and structures.
+##########################################################################################################
+
+Generation {
+    # If true, forgotten shrines will be generated in the world. (Default: true)
+    B:enableForgottenShrineGeneration=true
+
+    # The minimum distance between two forgotten shrines. They should be rare! (Default: 50)
+    I:forgottenShrineMinChunkDistance=50
+}
+
+
+##########################################################################################################
+# Recipes
+#--------------------------------------------------------------------------------------------------------#
+# If you don't like my recipes!
+##########################################################################################################
+
+Recipes {
+    # If the 'Bottle o' Enchanting' is craftable with the experience berries. (Default: true)
+    B:enableExperienceBottleRecipe=true
+
+    # If true, a separate 'Yellorium Inogt' recipe will be registered. Useful if Yellorium is not registered as Uranium. (Default: false)
+    B:enableExtraYellorumRecipe=false
+
+    # If the shrub fertilizer is craftable. (Default: true)
+    B:enableShrubFertilizer=true
+
+    # If the shrub trap is craftable. (Default: true)
+    B:enableShrubTrapRecipe=true
+
+    # If the wither proofed shrub trap is craftable. (Default: true)
+    B:enableShrubTrapWitherProofRecipe=true
+}
+
+

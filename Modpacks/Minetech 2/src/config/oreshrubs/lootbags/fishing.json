@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "registry_name": "fishing",
+  "rarity": 2,
+  "gem_color": 1539537,
+  "has_advanced_variant": false,
+  "crafting_core_itemstack": {
+    "item_name": "minecraft:fishing_rod",
+    "count": 1,
+    "meta": 0
+  },
+  "loot_tables": [
+    "minecraft:gameplay/fishing",
+    "minecraft:gameplay/fishing/fish",
+    "minecraft:gameplay/fishing/treasure"
+  ]
+}
