@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "registry_name": "glowstone",
+  "rarity": 3,
+  "shrub_color": 16572479,
+  "berry_color": 16572479,
+  "growth_chance": 15,
+  "max_harvested_berries": 4,
+  "light_level": 13,
+  "max_growth_light": 15,
+  "generation_settings": {
+    "dimension": -1,
+    "density": 2,
+    "min_generation_height": 64,
+    "max_generation_height": 128,
+    "vein_size": 2,
+    "vein_shape": "PILLAR_DOWN",
+    "spawn_biomes": [
+      "minecraft:hell"
+    ]
+  },
+  "oredict_result": {
+    "oredict_name": "dustGlowstone",
+    "crafting_amount": 1,
+    "register_ore_recipe": true,
+    "recipe_pattern": [
+      "**"
+    ]
+  }
+}
