@@ -1,2 +1,2 @@
 # OmegaPacks
-This is the Source Code & Modpack Files for the OmegaPacks Launcher
+This is the Modpack Files for the OmegaPacks Launcher
