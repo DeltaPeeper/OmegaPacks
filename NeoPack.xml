@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="neopack" abstract="false" name="NeoPack" newsUrl="https://deltapeeper.github.io/OmegaPacks/news.html" iconUrl="https://deltapeeper.github.io/OmegaPacks/icon.png" version="1.16.5" generateList="true" autoConnect="false" revision="1" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+		<Import url="https://fabricmc.net/download/mcupdater/?yarn=latest&amp;loader=0.11.1">fabric</Import>
+		<Module name="Adorn-1.13.0+1.16.5" id="adorn" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/Adorn-1.13.0+1.16.5.jar</URL>
+			<Size>4032808</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f79a92bd48bc7c1beedcdfca4941c187</MD5>
+		</Module>
+		<Module name="anti creeper grief v1.1.0" id="anticreepergriefv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/anti%20creeper%20grief%20v1.1.0.zip</URL>
+			<Size>7961</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e2cdb13208ffefc2799bfa07de60e118</MD5>
+		</Module>
+		<Module name="anti enderman grief v1.1.0" id="antiendermangriefv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/anti%20enderman%20grief%20v1.1.0.zip</URL>
+			<Size>7031</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f9d0c4cf84e26c2b9602d035812d5a4c</MD5>
+		</Module>
+		<Module name="anti ghast grief v1.1.0" id="antighastgriefv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/anti%20ghast%20grief%20v1.1.0.zip</URL>
+			<Size>7840</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0a24365025061cbac81c1cbf72429ac4</MD5>
+		</Module>
+		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/appliedenergistics2-fabric-8.2.0-alpha.1.jar</URL>
+			<Size>4770952</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5dcfb48dda779bd669aaa6590cabf98a</MD5>
+			<Meta>
+				<license>LGPL</license>
+				<description>A Mod about matter, energy and using them to conquer the world..</description>
+				<version>8.2.0-alpha.1</version>
+				<authors>TeamAppliedEnergistics</authors>
+			</Meta>
+		</Module>
+		<Module name="armor statues v2.8.1" id="armorstatuesv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/armor%20statues%20v2.8.1.zip</URL>
+			<Size>63697</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>af38266acef9877e27bfb140d7603f88</MD5>
+		</Module>
+		<Module name="armored elytra v1.0.3" id="armoredelytrav" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/armored%20elytra%20v1.0.3.zip</URL>
+			<Size>26266</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a9206d75e846df87670870d59674a650</MD5>
+		</Module>
+		<Module name="Art of Alchemy: Memoriam" id="artofalchemy" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/artofalchemy-1.0.0-rc4+1.16.4.jar</URL>
+			<Size>1968716</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4b9ab40a670fe801341c7b12b56b959e</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>An industrial magic mod that allows you to unleash the power of transmutation!
+In loving memory of Amelia aka SynthRose.</description>
+				<version>1.0.0-rc4+1.16.4</version>
+				<authors>SynthRose</authors>
+			</Meta>
+		</Module>
+		<Module name="Astromine" id="astromine" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/astromine-1.11.5+fabric-1.16.5.jar</URL>
+			<Size>8237488</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4affcee0f0da4871dc2fcb8440400d6c</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>A space-themed technological modification with exploration, weapons and progression in mind.</description>
+				<version>1.11.5+fabric-1.16.5</version>
+				<authors>vini2003, Shnupbups, Zundrel, shedaniel, MoonlitLamps, SuperCoder79, Draylar, HalfOf2, Martmists, AK9</authors>
+			</Meta>
+		</Module>
+		<Module name="Auto Config v1 Updated" id="autoconfig1u" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/autoconfig1u-3.3.1.jar</URL>
+			<Size>231447</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b8037d848c68c3c18c64b3d11152b28e</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Annotation based API for mod configs, with Cloth Config GUI integration</description>
+				<version>3.3.1</version>
+				<authors>sargunv, shedaniel</authors>
+			</Meta>
+		</Module>
+		<Module name="Basic Nether Ores" id="bno" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/BasicNetherOres-1.16.5-5.5.0.jar</URL>
+			<Size>342688</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8fff5e61d773b41925f59a97a93d2329</MD5>
+			<Meta>
+				<license>MIT License</license>
+				<description>Basic Nether Ores adds Overworld and Modded Ores to the Nether.
+</description>
+				<version>${file.jarVersion}</version>
+				<authors>cScotPlay</authors>
+			</Meta>
+		</Module>
+		<Module name="Better End" id="betterend" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/better-end-0.9.1-pre.jar</URL>
+			<Size>69951290</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2ef48a00bfdc76c6f62fb11e69a2b14f</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>More content for The End.</description>
+				<version>0.9.1-pre</version>
+				<authors>paulevs, Bulldog83</authors>
+			</Meta>
+		</Module>
+		<Module name="Better Nether" id="betternether" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/better-nether-5.0.7.jar</URL>
+			<Size>22294441</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>70f120289a31901b55f2381e0df44c90</MD5>
+			<Meta>
+				<license>GPLv3</license>
+				<description>Mod that improves Nether</description>
+				<version>5.0.7</version>
+				<authors>paulevs</authors>
+			</Meta>
+		</Module>
+		<Module name="Biome Locator" id="biome_locator" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/biome_locator-1.1.2.jar</URL>
+			<Size>100064</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ca3e4e4680a7bd8db12734fbfd839efe</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Locate biomes using the biome locator!</description>
+				<version>1.1.2</version>
+				<authors>Flytre</authors>
+			</Meta>
+		</Module>
+		<Module name="Biome Makeover" id="biomemakeover" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/biome-makeover-1.16.4-1.2.11.jar</URL>
+			<Size>4023767</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9cf55f7c03bb2b8b3c2d71aa5534ba1a</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Biome Makeover is a mod designed to modernise vanilla&apos;s biomes.</description>
+				<version>1.16.4-1.2.11</version>
+				<authors>LASER KNIGHTS</authors>
+			</Meta>
+		</Module>
+		<Module name="Blockus" id="blockus" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/blockus-2.0.2+1.16.4.jar</URL>
+			<Size>2707641</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dfbb891dc405c9fa0aeec54304440240</MD5>
+			<Meta>
+				<license>GPLv3</license>
+				<description>A mod that mainly adds blocks!</description>
+				<version>2.0.2+1.16.4</version>
+				<authors>Brandcraft06</authors>
+			</Meta>
+		</Module>
+		<Module name="BYG" id="byg" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/byg-1.1.5.jar</URL>
+			<Size>10741491</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a72e750ad43d1fb2b474dd4ffb1be91f</MD5>
+			<Meta>
+				<license>Code: LGPLv3
+ Assets: All Rights Reserved</license>
+				<description>An Adventure and Exploration mod with over 80 new biomes!
+Translator Credits: Dimiral(Russian), Godzmoline(Simplified Chinese)</description>
+				<version>1.1.5</version>
+				<authors>Corgi Taco, AOCAWOL</authors>
+			</Meta>
+		</Module>
+		<Module name="Campanion" id="campanion" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/campanion-1.3.4.jar</URL>
+			<Size>797730</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0f3bc2bdb3f96d61527f779c9c3dc715</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>A camping companion that adds items and utilities to improve your life away from home.</description>
+				<version>1.3.4</version>
+				<authors>Wyn Price, NeusFear, Prospector, TerraformersMC</authors>
+			</Meta>
+		</Module>
+		<Module name="cauldron concrete v2.0.3" id="cauldronconcretev" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/cauldron%20concrete%20v2.0.3.zip</URL>
+			<Size>10750</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>472c0be54ec38ef601b5ae3dd471e778</MD5>
+		</Module>
+		<Module name="Cave Biomes" id="cavebiomes" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/cavebiomes-0.6.2.jar</URL>
+			<Size>153455</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5f3be5e45c69f64746ec17edccd611de</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Cave biomes</description>
+				<version>0.6.2</version>
+				<authors>SuperCoder79</authors>
+			</Meta>
+		</Module>
+		<Module name="Cherished Worlds" id="cherishedworlds" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/cherishedworlds-fabric-1.3.0-1.16.4.jar</URL>
+			<Size>78233</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2565836c799f3f7cda94f9b3c581b4df</MD5>
+			<Meta>
+				<license>LGPL-3.0-or-later</license>
+				<description>Favorite/pin/bookmark certain worlds, which will always be at the top of the list and cannot be deleted.</description>
+				<version>1.3.0-1.16.4</version>
+				<authors>C4</authors>
+			</Meta>
+		</Module>
+		<Module name="Cinderscapes" id="cinderscapes" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/cinderscapes-1.3.3.jar</URL>
+			<Size>13573746</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b6ba2fbb9b412ce28cb5ec98cccaf374</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>An expansion of Minecraft&apos;s Nether biomes!</description>
+				<version>1.3.3</version>
+				<authors>Vaerian, NeusFear, TerraformersMC</authors>
+			</Meta>
+		</Module>
+		<Module name="classic fishing loot v1.1.0" id="classicfishinglootv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/classic%20fishing%20loot%20v1.1.0.zip</URL>
+			<Size>4688</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ee5e72f5b7ab4128426d8f454f9e3a69</MD5>
+		</Module>
+		<Module name="Cloth Config v4" id="cloth-config2" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/cloth-config-4.11.14-fabric.jar</URL>
+			<Size>989522</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>13a0755dba8ebd3eb04c8f48df5bc10d</MD5>
+			<Meta>
+				<license>GNU LGPLv3</license>
+				<description>An API for config screens.</description>
+				<version>4.11.14</version>
+				<authors>shedaniel</authors>
+			</Meta>
+		</Module>
+		<Module name="Common Expansion: Foodstuffs" id="ce_foodstuffs" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/ce_foodstuffs-1.1.3.jar</URL>
+			<Size>265495</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6b54cebbb5ef086f7ae96b0b38cdc112</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description></description>
+				<version>1.1.3</version>
+				<authors>Hugman, Plantkillable, Cydian, Wintrius</authors>
+			</Meta>
+		</Module>
+		<Module name="count mob deaths v1.1.0" id="countmobdeathsv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/count%20mob%20deaths%20v1.1.0.zip</URL>
+			<Size>12097</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>de80c5743a42734c3750de6c8754f771</MD5>
+		</Module>
+		<Module name="Croptopia" id="croptopia" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/Croptopia-1.16.4-5-FABRIC-1.2.0.jar</URL>
+			<Size>1652002</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>deddb4f6491d5fde1a4a00d33368fb93</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds crops to the game</description>
+				<version>1.2.0</version>
+				<authors>Thonk, Rainbowcraft2</authors>
+			</Meta>
+		</Module>
+		<Module name="Crusade" id="crusade" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/crusade-mod-1.2.0.jar</URL>
+			<Size>82793</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d3706150c87e719f6d5b0045d54d0f53</MD5>
+			<Meta>
+				<license>G N U   V U L T      This program is free software: you can redistribute it and or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</license>
+				<description>D E U S   V U L T!</description>
+				<version>1.2.0</version>
+				<authors>CoolMineman/ThatTrollzer/Cool_Mineman/Whatever I am now ;P</authors>
+			</Meta>
+		</Module>
+		<Module name="Dawn API" id="dawn" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/dawn-1.7.jar</URL>
+			<Size>814531</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f16e5f2256205d2a524e1052b1323072</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description></description>
+				<version>1.7</version>
+				<authors>Hugman</authors>
+			</Meta>
+		</Module>
+		<Module name="double shulker shells v1.3.0" id="doubleshulkershellsv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/double%20shulker%20shells%20v1.3.0.zip</URL>
+			<Size>4932</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ed1f76375b78a316ca7b8cf6133fe895</MD5>
+		</Module>
+		<Module name="dragon drops v1.3.0" id="dragondropsv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/dragon%20drops%20v1.3.0.zip</URL>
+			<Size>5387</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6823304393cfb065d869a46546eadb10</MD5>
+		</Module>
+		<Module name="durability ping v1.1.0" id="durabilitypingv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/durability%20ping%20v1.1.0.zip</URL>
+			<Size>106479</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f30f2cd8e6be2d497e824e102b64fead</MD5>
+		</Module>
+		<Module name="Ecotones" id="ecotones" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/ecotones-0.7.1.jar</URL>
+			<Size>2154889</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>df366c9b366223fe2f6d88efdb37f6d2</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>A biome overhaul mod with realistic and expansive biomes filled with life!</description>
+				<version>0.7.1</version>
+				<authors>SuperCoder79</authors>
+			</Meta>
+		</Module>
+		<Module name="Egg Tab" id="eggtab" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/eggtab-2.1.0+1.16-fabric.jar</URL>
+			<Size>587404</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e821f0a37e55f3002464c6a7838a2602</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Moves all spawn eggs and enchanted books to separate creative tabs.</description>
+				<version>2.1.0+1.16-fabric</version>
+				<authors>Florens Pauwels</authors>
+			</Meta>
+		</Module>
+		<Module name="Extra Origins" id="extraorigins" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/extraorigins-1.16.5-3.jar</URL>
+			<Size>64146</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9e2895c044090b4e882f2d94556ffc69</MD5>
+			<Meta>
+				<license>GPL-3.0</license>
+				<description>Adds more origins to the Origins mod</description>
+				<version>1.16.5-3</version>
+				<authors>MoriyaShiine</authors>
+			</Meta>
+		</Module>
+		<Module name="extraalchemy-fabric-1.16.5-1.4.1" id="extraalchemyfabric" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/extraalchemy-fabric-1.16.5-1.4.1.jar</URL>
+			<Size>1037187</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7e46cbf05053e2d92b249070e52fae95</MD5>
+		</Module>
+		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/fabric-api-0.30.3+1.16.jar</URL>
+			<Size>907566</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>30ac7542a56a2fd989b59e853a9aa646</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Core API module providing key hooks and intercompatibility features.</description>
+				<version>0.30.3+1.16</version>
+				<authors>FabricMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Fabric Furnaces" id="fabric-furnaces" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/fabric-furnaces-1.3.3-1.16.4.jar</URL>
+			<Size>398346</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c68c38d2b57da3346963543fe2936be6</MD5>
+			<Meta>
+				<license>GPLv3</license>
+				<description>Adds a ton of new furnaces to the game.</description>
+				<version>1.3.3-1.16.4</version>
+				<authors>Draylar</authors>
+			</Meta>
+		</Module>
+		<Module name="Fabric Language Kotlin" id="fabric-language-kotlin" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/fabric-language-kotlin-1.4.21+build.1.jar</URL>
+			<Size>5606038</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>642cd3f396cac31b035528c3019091ae</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Fabric language module for Kotlin.</description>
+				<version>1.4.21+build.1</version>
+				<authors>Nikky</authors>
+			</Meta>
+		</Module>
+		<Module name="FallingTree" id="fallingtree" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/FallingTree-Fabric-1.16.5-2.10.2.jar</URL>
+			<Size>784409</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>01251dc3dc8ba9f26e0e8bfbc3177ead</MD5>
+			<Meta>
+				<license>GPL-3.0</license>
+				<description>Change the way you cut trees.</description>
+				<version>2.10.2</version>
+				<authors>RakSrinaNa</authors>
+			</Meta>
+		</Module>
+		<Module name="fast leaf decay v2.0.3" id="fastleafdecayv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/fast%20leaf%20decay%20v2.0.3.zip</URL>
+			<Size>20097</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c6a0b2d1071979bbadc0e55b5b619fee</MD5>
+		</Module>
+		<Module name="FastFurnace" id="fastfurnace" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/fastfurnace-2.3.jar</URL>
+			<Size>11481</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>626b634f8f5c52ed093d40d7027aa64e</MD5>
+			<Meta>
+				<license>CC0-1.0</license>
+				<description>Optimizations for the vanilla furnace</description>
+				<version>2.3</version>
+				<authors>Tfarecnim</authors>
+			</Meta>
+		</Module>
+		<Module name="Flesh2Leather" id="flesh2leather" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/flesh2leather-1.0.2.jar</URL>
+			<Size>9840</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5c5ebe5476e9d874d8a271510716228f</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>This mod adds a convenient way to turn your excessive amounts of useless flesh into leather!</description>
+				<version>1.0.2</version>
+				<authors>CodenameRevy, lechiny (zh_cn translations)</authors>
+			</Meta>
+		</Module>
+		<Module name="FlytreLib" id="flytre_lib" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/flytre_lib-0.2.8.jar</URL>
+			<Size>69657</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c411ae0e6c6e568b5a22f4fc12062814</MD5>
+			<Meta>
+				<license>Custom License</license>
+				<description>Common Code for Flytre mods</description>
+				<version>0.2.8</version>
+				<authors>Flytre</authors>
+			</Meta>
+		</Module>
+		<Module name="FoodHighlight" id="food_highlight" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/food_highlight-1.0.1.jar</URL>
+			<Size>29248</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fc9d7076683637b90beeb53cf576d3bb</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Client side mod to highlight food when you can get the full benefit from it!</description>
+				<version>1.0.1</version>
+				<authors>Flytre</authors>
+			</Meta>
+		</Module>
+		<Module name="gem villagers v4.3.2" id="gemvillagersv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/gem%20villagers%20v4.3.2.zip</URL>
+			<Size>46848</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5724ee760a9ca75a4d1df6e7412fa481</MD5>
+		</Module>
+		<Module name="gravestones-v1.9" id="gravestonesv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/gravestones-v1.9.jar</URL>
+			<Size>721652</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>69ec457e2f232beb0d8627a17ee46168</MD5>
+		</Module>
+		<Module name="Hydrogen" id="hydrogen" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/hydrogen-fabric-mc1.16.5-0.2.jar</URL>
+			<Size>117236</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>86d48d7adc588922661ba0d1cde156d5</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>A Minecraft mod designed to reduce the memory usage of the game.</description>
+				<version>0.2</version>
+				<authors>JellySquid</authors>
+			</Meta>
+		</Module>
+		<Module name="Improved Stations" id="improved-stations" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/improved-stations-2.0.3.jar</URL>
+			<Size>121533</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>276a53c7ce535ab601eff7f572e8c309</MD5>
+			<Meta>
+				<license>CC-BY-NC-4.0</license>
+				<description>Adds different kinds of stations into Minecraft.</description>
+				<version>2.0.3</version>
+				<authors>shedaniel</authors>
+			</Meta>
+		</Module>
+		<Module name="Indium" id="indium" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/indium-1.0.0.jar</URL>
+			<Size>113645</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d7baf585d5393faf0ef5fe335fbc8870</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Adaptation of Indigo for use with Sodium, implementing the Fabric Rendering API</description>
+				<version>1.0.0</version>
+				<authors>comp500</authors>
+			</Meta>
+		</Module>
+		<Module name="indrev-1.8.4-BETA" id="indrev" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/indrev-1.8.4-BETA.jar</URL>
+			<Size>5590413</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>186e794851168f890a6d9227c0f347d1</MD5>
+		</Module>
+		<Module name="InventorySorter-1.7.7-1.16" id="inventorysorter" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/InventorySorter-1.7.7-1.16.jar</URL>
+			<Size>492985</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0f12093231b4831042813733320af37b</MD5>
+		</Module>
+		<Module name="item averages v1.3.0" id="itemaveragesv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/item%20averages%20v1.3.0.zip</URL>
+			<Size>11431</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f112129b31ecbb9abcde3a5170725738</MD5>
+		</Module>
+		<Module name="Just Another Redstone Gate Mod" id="jargm" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/Just_Another_Redstone_Gate_Mod-1.2.0.jar</URL>
+			<Size>164318</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>32553eb08810a7f141c77318a098a3e2</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds some simple redstone gates</description>
+				<version>1.2.0</version>
+				<authors>MarioAndWeegee3</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Map Unlimited" id="justmap-unlimited" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/justmap-1.2.15-1.16.4-unlimited.jar</URL>
+			<Size>1175239</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d67a25cf3c46d367f6ac1b06fbfa0a6a</MD5>
+			<Meta>
+				<license></license>
+				<description>A minimap mod for Minecraft.</description>
+				<version>1.2.15</version>
+				<authors>Bulldog83</authors>
+			</Meta>
+		</Module>
+		<Module name="Kibe" id="kibe" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/kibe-1.16.5-1.6.3-BETA.jar</URL>
+			<Size>2086685</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b812721340f23ef5eb045c0662ec4e47</MD5>
+			<Meta>
+				<license>Mozilla Public License 2.0</license>
+				<description>A miscellaneous mod that adds a bunch of random, and mostly unoriginal things.</description>
+				<version>1.6.3-BETA</version>
+				<authors>D4rkness_King</authors>
+			</Meta>
+		</Module>
+		<Module name="larger phantoms v1.2.1" id="largerphantomsv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/larger%20phantoms%20v1.2.1.zip</URL>
+			<Size>7229</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0268cd331c2ec5976c0cee857cc7114c</MD5>
+		</Module>
+		<Module name="LibMultiPart (Dependency Container)" id="libmultipart_deps_container" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/libmultipart-all-0.4.7.jar</URL>
+			<Size>329932</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0af150e82a2cc9791b73c73efdb1746a</MD5>
+			<Meta>
+				<license>Mozilla Public License Version 2.0</license>
+				<description>A MultiPart library for fabric. Based on LibBlockAttributes and LibNetworkStack</description>
+				<version>0.4.7</version>
+				<authors>AlexIIL</authors>
+			</Meta>
+		</Module>
+		<Module name="lithium-fabric-mc1.16.5-0.6.3" id="lithiumfabricmc" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/lithium-fabric-mc1.16.5-0.6.3.jar</URL>
+			<Size>314319</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>51b9e5cfb796c1238ea674851807c0ac</MD5>
+		</Module>
+		<Module name="MinecraftCapes Mod" id="minecraftcapes" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/MinecraftCapes+Forge+1.16.5-v10.jar</URL>
+			<Size>27554</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4b04b3ff0acecf3a365fb6bcfafefe3a</MD5>
+			<Meta>
+				<license>All Rights Reserved</license>
+				<description>Custom Cape, Elytras and Deadmau5 textures for minecraft which everyone with the mod can see!</description>
+				<version>${file.jarVersion}</version>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="Mo&apos; Structures" id="mostructures" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/mostructures-1.0.1+mc.1.16.4.jar</URL>
+			<Size>661826</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a3b33383d164767771af5ab8fc2ab6fd</MD5>
+			<Meta>
+				<license>LGPL-3.0</license>
+				<description>Adds structures with loot and spawners to Minecraft to increase the RPG aspect of the game.</description>
+				<version>1.0.1+mc.1.16.4</version>
+				<authors>frqnny</authors>
+			</Meta>
+		</Module>
+		<Module name="Mo-Glass-1.5-MC1.16.5" id="moglass" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/Mo-Glass-1.5-MC1.16.5.jar</URL>
+			<Size>2045504</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d610ff0ecdc91bb7ca48b21e4d36c290</MD5>
+		</Module>
+		<Module name="Mod Menu" id="modmenu" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/modmenu-1.16.7.jar</URL>
+			<Size>240808</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7c308e0d339bcb84702dff96af5e1e8e</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds a mod menu to view the list of mods you have installed.</description>
+				<version>1.16.7</version>
+				<authors>Prospector, TerraformersMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Modern-Industrialization-0.3.14" id="modernindustrialization" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/Modern-Industrialization-0.3.14.jar</URL>
+			<Size>4978840</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>20a22b42ca53eb0482956c2e6c41cb7a</MD5>
+		</Module>
+		<Module name="Mooblooms" id="mooblooms" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/mooblooms-1.4.0.jar</URL>
+			<Size>670936</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f91684decbcad53f047546a2e5c9e98a</MD5>
+			<Meta>
+				<license>GPLv3</license>
+				<description>A mod adding colorful and flowery cows. Moo!</description>
+				<version>1.4.0</version>
+				<authors>YanisBft</authors>
+			</Meta>
+		</Module>
+		<Module name="more mob heads v2.8.2" id="moremobheadsv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/more%20mob%20heads%20v2.8.2.zip</URL>
+			<Size>110298</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>02edf0c92e6d486e79da320eb05a6a5c</MD5>
+		</Module>
+		<Module name="multiplayer sleep v2.5.2" id="multiplayersleepv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/multiplayer%20sleep%20v2.5.2.zip</URL>
+			<Size>27556</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c8480189c4ad33f69b8c544154e83a81</MD5>
+		</Module>
+		<Module name="NookBuild" id="nookbuild" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/nookbuild-1.4.0.jar</URL>
+			<Size>2116837</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2f127fb2cb71c6311a8aa3669f59de55</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description></description>
+				<version>1.4.0</version>
+				<authors>Hugman</authors>
+			</Meta>
+		</Module>
+		<Module name="Origins" id="origins" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/Origins-1.16.5-0.4.7.jar</URL>
+			<Size>1355468</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6b7babda8cfc2e0296e0b2d6177e2bc3</MD5>
+			<Meta>
+				<license>CC0-1.0</license>
+				<description>This mod adds several origins with passive abilities to the game, which you can choose from at the beginning of the game.</description>
+				<version>0.4.7</version>
+				<authors>Apace</authors>
+			</Meta>
+		</Module>
+		<Module name="Origins: Classes" id="origins-classes" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/Origins-Classes-1.16.5-1.1.1.jar</URL>
+			<Size>133686</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1d9ab6f6c959c9056cdc7aa791920a7e</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>An add-on for the Origins mod which adds classes to the game.</description>
+				<version>1.1.1</version>
+				<authors>Apace</authors>
+			</Meta>
+		</Module>
+		<Module name="Patchouli" id="patchouli" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/Patchouli-1.16.4-50-FABRIC.jar</URL>
+			<Size>790828</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5fdcc8c6e09979f77b4b267d0586c1f0</MD5>
+			<Meta>
+				<license>CC BY-NC-SA 3.0</license>
+				<description>Patchouli: Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers</description>
+				<version>1.16.4-50-FABRIC</version>
+				<authors>Vazkii, williewillus</authors>
+			</Meta>
+		</Module>
+		<Module name="Pehkui" id="pehkui" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/Pehkui-1.7.1+21w03a.jar</URL>
+			<Size>192703</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3e32101d342b710f946a65aeca7aa06d</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Fabric mod that allows resizing of most entities.</description>
+				<version>1.7.1+21w03a</version>
+				<authors>Virtuoel</authors>
+			</Meta>
+		</Module>
+		<Module name="Phonos" id="phonos" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/phonos-0.1.1-beta.jar</URL>
+			<Size>2146134</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8e5e02aaa06c21e25f559667117445a0</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Fill your world with music!</description>
+				<version>0.1.1-beta</version>
+				<authors>FoundationGames</authors>
+			</Meta>
+		</Module>
+		<Module name="Phosphor" id="phosphor" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/phosphor-fabric-mc1.16.3-0.7.1+build.11.jar</URL>
+			<Size>91302</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dc00c550ee486edeacc670b0f8d3e9ab</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Phosphor is an optimization mod for Minecraft which improves the performance of the lighting engine, resulting in significantly reduced world generation times and improved server tick rates. You can help feed me and support development on Patreon, gaining some special perks in the process! Any amount of support helps a ton. https://www.patreon.com/jellysquid</description>
+				<version>0.7.1+build.11</version>
+				<authors>JellySquid, PhiPro</authors>
+			</Meta>
+		</Module>
+		<Module name="Pipette" id="pipette" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/pipette-2.0.0.jar</URL>
+			<Size>380124</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c5e8cf2726049664989110116145c14b</MD5>
+			<Meta>
+				<license>CC0-1.0</license>
+				<description>Pipette adds a set of simple changes to Minecraft that allow for significant improvements to automation and QOL, while maintaining the vanilla Minecraft feel we all hold so dear.</description>
+				<version>2.0.0</version>
+				<authors>octalide</authors>
+			</Meta>
+		</Module>
+		<Module name="player head drops v1.1.0" id="playerheaddropsv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/player%20head%20drops%20v1.1.0.zip</URL>
+			<Size>5232</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9aa5925e6ec2728437fd9d62dd013cff</MD5>
+		</Module>
+		<Module name="Polymorph" id="polymorph" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/polymorph-fabric-0.0.9-1.16.5.jar</URL>
+			<Size>450783</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7d5710b74a135cb54e91066451d6b5d1</MD5>
+			<Meta>
+				<license>LGPL-3.0-or-later</license>
+				<description>No more recipe conflicts! Adds an option to choose the crafting result if more than one is available.</description>
+				<version>0.0.9-1.16.5</version>
+				<authors>C4</authors>
+			</Meta>
+		</Module>
+		<Module name="randompatches-2.4.2-fabric" id="randompatches" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/randompatches-2.4.2-fabric.jar</URL>
+			<Size>1007463</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3620ee922a5763afb4e583fbf95534a9</MD5>
+		</Module>
+		<Module name="Red Bits" id="redbits" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/red-bits-1.7.0.jar</URL>
+			<Size>165884</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6e2c7f5dbe85bb772d59733ea7e7a249</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Vanilla style redstone additions and improvements!</description>
+				<version>1.7.0</version>
+				<authors>magistermaks</authors>
+			</Meta>
+		</Module>
+		<Module name="redstone rotation wrench v1.1.1" id="redstonerotationwrenchv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/redstone%20rotation%20wrench%20v1.1.1.zip</URL>
+			<Size>8859</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>15befdda034140247dc30ebfa70e22bb</MD5>
+		</Module>
+		<Module name="Repurposed Structures" id="repurposed_structures" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/repurposed_structures-1.16.5-1.8.1.jar</URL>
+			<Size>3938955</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7d5cf2bfff18873608ea23f043e42017</MD5>
+			<Meta>
+				<license>GNU Lesser General Public License v3.0</license>
+				<description>Adds more variations of vanilla structures and features!</description>
+				<version>1.16.5-1.8.1</version>
+				<authors>TelepathicGrunt</authors>
+			</Meta>
+		</Module>
+		<Module name="Reroll" id="reroll" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/reroll-1.2.0-1.16.5.jar</URL>
+			<Size>290781</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c0cef9df461491e24184a765e7daf107</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Reroll Enchantment tables.</description>
+				<version>1.2.0-1.16.5</version>
+				<authors>Draylar</authors>
+			</Meta>
+		</Module>
+		<Module name="River Redux" id="riverredux" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/riverredux-0.1.6.jar</URL>
+			<Size>59443</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>944233a45d4f79b3a3bd2970e10a134b</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Improves Minecraft&apos;s river biomes!</description>
+				<version>0.1.6</version>
+				<authors>SuperCoder79</authors>
+			</Meta>
+		</Module>
+		<Module name="Roughly Enough Items" id="roughlyenoughitems" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/RoughlyEnoughItems-5.10.181.jar</URL>
+			<Size>1124865</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c33a18f0640df9ded31ef09c9ffa00c2</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>To allow players to view items and recipes.</description>
+				<version>5.10.181</version>
+				<authors>shedaniel</authors>
+			</Meta>
+		</Module>
+		<Module name="Roughly Enough Resources" id="roughlyenoughresources" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/rer-2.1.3.jar</URL>
+			<Size>71181</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2573fc8f9457ca4c0b680a0fb4367e17</MD5>
+			<Meta>
+				<license>CC0-1.0</license>
+				<description>This mod extends Just Enough Items to show you at what heights in the world you can find various blocks.</description>
+				<version>2.1.3</version>
+				<authors>theorbtwo</authors>
+			</Meta>
+		</Module>
+		<Module name="rswires-4.10.2" id="rswires" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/rswires-4.10.2.jar</URL>
+			<Size>647315</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>47836239b9c66751125ca59cc20cc781</MD5>
+		</Module>
+		<Module name="Sandwichable" id="sandwichable" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/sandwichable-1.1.2__1.16.2.jar</URL>
+			<Size>777828</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e8dacf6324d43d7ec2bb2b327c45e50b</MD5>
+			<Meta>
+				<license>MIT License</license>
+				<description>Sandwiches. Go nuts.</description>
+				<version>1.1.2</version>
+				<authors>FoundationGames</authors>
+			</Meta>
+		</Module>
+		<Module name="Save My Stronghold!" id="savemystronghold" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/SaveMyStronghold-Fabric-1.16.4-1.0.jar</URL>
+			<Size>195256</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8fccfa17e57b41dcc6a54cb0669cf0fe</MD5>
+			<Meta>
+				<license>GPLv3</license>
+				<description>A lightweight mod to prevent strongholds from being torn up by underground caves and structures.</description>
+				<version>1.16.4-1.0</version>
+				<authors>YUNGNICKYOUNG</authors>
+			</Meta>
+		</Module>
+		<Module name="silence mobs v1.1.0" id="silencemobsv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/silence%20mobs%20v1.1.0.zip</URL>
+			<Size>5133</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>23c0dc07ad0d08961dde10b3b9d4521b</MD5>
+		</Module>
+		<Module name="Simple Teleporters" id="simpleteleporters" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/simpleteleporters-2.2.1.jar</URL>
+			<Size>129194</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c6136d8423e3bcbed2ff6c1ea28f5675</MD5>
+			<Meta>
+				<license>MIT License</license>
+				<description>Simple Teleporters adds a craftable teleporter block to quickly travel your world!</description>
+				<version>2.2.1</version>
+				<authors>Lemonszz, Shnupbups</authors>
+			</Meta>
+		</Module>
+		<Module name="Sodium" id="sodium" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/sodium-fabric-mc1.16.4-0.1.1-SNAPSHOT.jar</URL>
+			<Size>529722</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c53b350ade64bc76017e90491a17fe9c</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Sodium is an free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.</description>
+				<version>0.1.1-SNAPSHOT</version>
+				<authors>JellySquid</authors>
+			</Meta>
+		</Module>
+		<Module name="spectator conduit power v1.1.0" id="spectatorconduitpowerv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/spectator%20conduit%20power%20v1.1.0.zip</URL>
+			<Size>6754</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cc9fc6dbd02d6cc618fef6ee70ce73c8</MD5>
+		</Module>
+		<Module name="spectator night vision v1.1.0" id="spectatornightvisionv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/spectator%20night%20vision%20v1.1.0.zip</URL>
+			<Size>6596</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5923b4659a4f2586609c1f501d00ffd9</MD5>
+		</Module>
+		<Module name="tag v2.1.0" id="tagv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/tag%20v2.1.0.zip</URL>
+			<Size>10038</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8d64626d21c7ffb5490002c4cebcb337</MD5>
+		</Module>
+		<Module name="Tech Reborn" id="techreborn" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/TechReborn-1.16-3.8.0+build.205.jar</URL>
+			<Size>3782262</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3985820e3b6bd469b8d1582c6355d05d</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>A completely standalone tech mod including tools and machines to gather resources, process materials, and progress through the mod.</description>
+				<version>3.8.0+build.205</version>
+				<authors>Team Reborn, modmuss50, drcrazy</authors>
+			</Meta>
+		</Module>
+		<Module name="terracotta rotation wrench v1.1.1" id="terracottarotationwrenchv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/terracotta%20rotation%20wrench%20v1.1.1.zip</URL>
+			<Size>10736</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>53b313347eab5eb5d6c216ace8ed4d5d</MD5>
+		</Module>
+		<Module name="Terrestria" id="terrestria" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/terrestria-2.2.0.jar</URL>
+			<Size>1796416</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b3e95fb6a925ec6429562f903ea71928</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>A mod enhancing the detail of Minecraft with unique and vibrant biomes. Inspired by ExtrabiomesXL.</description>
+				<version>2.2.0</version>
+				<authors>coderbot16, NeusFear, TerraformersMC</authors>
+			</Meta>
+		</Module>
+		<Module name="thunder shrine v1.1.0" id="thundershrinev" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/thunder%20shrine%20v1.1.0.zip</URL>
+			<Size>7462</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e5524379fd5cf9360f13275964ccf889</MD5>
+		</Module>
+		<Module name="TIS-3D-MC1.16.2-Fabric-1.6.1.23" id="tisdmc" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/TIS-3D-MC1.16.2-Fabric-1.6.1.23.jar</URL>
+			<Size>632838</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>edfa048be6d0f2c7722cba46fe928315</MD5>
+		</Module>
+		<Module name="Trap Expansion" id="trapexpansion" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/trapexpansion-1.16.2-1.3.3.jar</URL>
+			<Size>113290</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>344023f7126e7fd297091a090e55ef53</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Trap Expansion Adds Some Vanilla Style Traps!</description>
+				<version>1.3.2</version>
+				<authors>Lemonszz, Shnupbups</authors>
+			</Meta>
+		</Module>
+		<Module name="Traverse" id="traverse" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/traverse-3.3.2.jar</URL>
+			<Size>1659656</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6b071e0f9ebf42079167832d07209e27</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>A biome expansion mod that embraces the simplistic nature of Minecraft biomes</description>
+				<version>3.3.2</version>
+				<authors>Prospector, NeusFear, TerraformersMC</authors>
+			</Meta>
+		</Module>
+		<Module name="treasure gems v1.2.1" id="treasuregemsv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/treasure%20gems%20v1.2.1.zip</URL>
+			<Size>25916</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cd4641144706703095edd860019866d7</MD5>
+		</Module>
+		<Module name="unlock all recipes v2.0.0" id="unlockallrecipesv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/unlock%20all%20recipes%20v2.0.0.zip</URL>
+			<Size>5261</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ac56c96f524c4752f31f6f1de2dac057</MD5>
+		</Module>
+		<Module name="Vanilla Parts" id="vanilla_parts" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/VanillaParts-1.1.4+1.16.3.jar</URL>
+			<Size>404192</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>130d868e2758d821bf09382f67b86d3a</MD5>
+			<Meta>
+				<license>MPL-2.0</license>
+				<description>Turn your ordinary blocks into multiparts!</description>
+				<version>1.1.4+1.16.3</version>
+				<authors>Juuz</authors>
+			</Meta>
+		</Module>
+		<Module name="VanillaTweaks_c129070" id="vanillatweaks_c" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/VanillaTweaks_c129070.zip</URL>
+			<Size>218829</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1236806cd50b3994694eee987e815e0e</MD5>
+		</Module>
+		<Module name="villager workstation highlights v1.1.0" id="villagerworkstationhighlightsv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/villager%20workstation%20highlights%20v1.1.0.zip</URL>
+			<Size>8945</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c2ffdb6772a156600ad2144648140c33</MD5>
+		</Module>
+		<Module name="wandering trades hermit edition v1.4.0" id="wanderingtradeshermiteditionv" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/datapacks/wandering%20trades%20hermit%20edition%20v1.4.0.zip</URL>
+			<Size>35096</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1feb919809281370fcb462b337657740</MD5>
+		</Module>
+		<Module name="Wild Explorer" id="wild_explorer" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/wild_explorer-1.3.2.jar</URL>
+			<Size>724587</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>678b29100801c3a3b0fac275e27ca722</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description></description>
+				<version>1.3.2</version>
+				<authors>Hugman</authors>
+			</Meta>
+		</Module>
+		<Module name="WoodsAndMires-1.0.4+1.16.3" id="woodsandmires" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/WoodsAndMires-1.0.4+1.16.3.jar</URL>
+			<Size>222779</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3328e8839f0808cd904aa41f76c1663a</MD5>
+		</Module>
+		<Module name="wthit-2.2.1+1.16.5" id="wthit" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/wthit-2.2.1+1.16.5.jar</URL>
+			<Size>243497</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>097e7d0e6615bf1421878908bd2e39b0</MD5>
+		</Module>
+		<Module name="YUNG&apos;s Better Caves" id="bettercaves" depends="" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/BetterCaves-fabric-1.16.2-1.0.3.jar</URL>
+			<Size>1101828</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c92755a23c610230ea0ddbf714e5cab0</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Overhauled cave generation, underground lakes and rivers, lava oceans, and more! This is the most powerful and customizable Minecraft cave mod, with dozens of options and support for dimension-specific configurability.</description>
+				<version>1.16.2-1.0.3</version>
+				<authors>YUNGNICKYOUNG</authors>
+			</Meta>
+		</Module>
+		<Module name="YUNG&apos;s Better Mineshafts" id="bettermineshafts" depends="yungsapi" side="BOTH">
+			<URL priority="0">https://deltapeeper.github.io/OmegaPacks/NeoPack/mods/BetterMineshafts-Forge-1.16.4-2.0.1.jar</URL>
+			<Size>288431</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>141e666444fec0586fb173cabdd43fbf</MD5>
+			<Meta>
+				<license>GPLv3</license>
+				<description>A long-awaited and much-needed abandoned mineshaft overhaul!</description>
+				<version>1.16.4-2.0.1</version>
+				<authors>YUNGNICKYOUNG</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>
